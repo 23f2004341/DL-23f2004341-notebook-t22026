@@ -1,0 +1,21 @@
+# Python and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Virtual environments and local configuration
+.venv/
+venv/
+.env
+
+# Large model checkpoints (store these in a Hugging Face model repository)
+*.safetensors
+*.bin
+*.ckpt
+*.pt
+*.pth
+models/**/checkpoint-*/
+models/deberta/production/
+models/kaggle-output/
+models/kaggle-complete-output/
